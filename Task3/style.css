@@ -1,0 +1,28 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #070707;
+}
+body>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(228, 215, 43);
+    margin: 20px;
+    padding: 50px;
+    width:30%;
+}
+button
+{
+    width:100%;
+    border-radius: 100%;
+    background-color: #900;
+    border: none;
+}
+button:active {
+    background-color: #600;
+    transform: translateY(4px);
+}
